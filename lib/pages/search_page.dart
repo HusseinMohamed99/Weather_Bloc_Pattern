@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/cubit/weather_cubit.dart';
+import 'package:weather/cubit/weather_cubit.dart';
 
 class SearchPage extends StatelessWidget {
   SearchPage({

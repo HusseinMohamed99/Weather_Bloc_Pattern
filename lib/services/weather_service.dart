@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:weather_app/models/weather_model.dart';
-import 'package:weather_app/utils/constant.dart';
+import 'package:weather/models/weather_model.dart';
+import 'package:weather/utils/constant.dart';
 
 class WeatherService {
   Future<WeatherModel> getWeather({required String cityName}) async {
